@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container, Grid } from '@material-ui/core';
+import React from 'react';
 
+import Profile from './Components/Profile/Index'
+import Header from './Components/Header/Index'
+import Footer from './Components/Footer/Index'
+import Portfolio from './Pages/Portfolio/Index'
+import Resume from './Pages/Resume/Index'
+
+
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import './App.css';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+    <Container>
+      <Grid container>
+
+        {/* //First Components */}
+
+        <Grid item xs={12} sm={12} md={4} lg={3}>
+          <Profile />
+        </Grid>
+
+
+
+        {/* //Sec Components */}
+
+        <Grid item xs style={{backgroundColor:'beige'}}>
+          <Header />
+          <Router>
+            <Routes>
+               <Route path ="/Portfolio" element={<Portfolio/>} />
+               <Route path ="/" element={<Resume/>} />
+            </Routes>
+           </Router>
+         <Footer />
+        </Grid>
+      </Grid>
+    </Container>
+
+
+
+
   );
 }
 
