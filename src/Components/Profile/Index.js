@@ -1,17 +1,47 @@
 import { Typography } from '@material-ui/core';
 import React from 'react';
-import CustomTimeLine from '../TimeLine/Index'
-import './Style.css'
+import CustomTimeLine, { CustomTimeLineSeparator } from '../TimeLine/Index';
+import TimelineContent from '@material-ui/lab/TimelineContent';
+import TimelineItem from '@material-ui/lab/TimelineItem';
+import ResumeData from '../../Utils/ResumeData';
+import Person from '@material-ui/icons/Person';
+import './Style.css';
+
+const CustomData =({title,text,link})=>(
+    <TimelineItem>
+        <CustomTimeLineSeparator  />
+        <TimelineContent className='timeline_content'>
+            { link ? (
+            <Typography className='timelineItem_text'>
+                <span >{title}:</span> {" "}
+                <a href={link} target='_blank'>{text}</a>
+            </Typography>
+            
+            )   : (
+            <Typography className='timelineItem_text'>
+
+                
+            <span> {title}:</span>{" "} {text}
+            </Typography>
+            
+            ) }
+        </TimelineContent>
+    </TimelineItem>
+        
+
+
+);
+
 
 const Profile =()=>{
     return (
         <div className='profile container_shadaw'>
             <div className='profile_name'>
                 <Typography className="name">
-                    Hamza Smii
+                    {ResumeData.name }
                 </Typography>
                 <Typography className="title">
-                    Software Engineer
+                    {ResumeData.title}
                 </Typography>
             </div>
             <figure className="profile_image">
@@ -19,7 +49,18 @@ const Profile =()=>{
             </figure>
 
             <div className="profile_information">
-                <CustomTimeLine />
+                <CustomTimeLine icon={<Person />} >
+                    <CustomData title={'Name'} text={ResumeData.name} />   
+                    <CustomData title={'Title'} text={ResumeData.title} /> 
+                    <CustomData title={'Birthday'} text={ResumeData.birthday} />
+                    <CustomData title={'Email'} text={ResumeData.email} />
+                    <CustomData title={'Address'} text={ResumeData.address} />
+                    <CustomData title={'Phone'} text={ResumeData.phone} />
+
+                    {Object.keys(ResumeData.social).map((key)=>(
+                        <CustomData title={key} text={ResumeData.social[key].Text} link={ResumeData.social[key].Link} />
+                    ))}
+                </CustomTimeLine>
                 <br />
                 <button>Press</button>
             </div>

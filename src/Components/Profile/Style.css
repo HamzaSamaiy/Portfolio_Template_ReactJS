@@ -3,6 +3,14 @@
     border-radius:6px;
     width:100%;
     display:inline-block;
+    background: #fff;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    width: 100%;
+    display: inline-block;
+    
 }
 
 .profile_name{
@@ -29,4 +37,31 @@
 
 .profile_image img{
     width:100%;
+}
+
+/*Profile informaiton*/
+.profile_information{
+    top:0;
+    left:0;
+    margin: -35px 4px 30px;
+}
+
+.profile_information .timeline .timeline_content{
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+.timelineItem_text{
+    font-size: 13.5px !important;
+    color: #7F7F7F !important;
+    line-height: 12px !important;
+}
+
+.timelineItem_text > span{
+    color: black;
+}
+
+.timelineItem_text >  a{
+    color: #59baff;
+    text-decoration: none;
 }
