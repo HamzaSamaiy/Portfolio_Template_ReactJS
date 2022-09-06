@@ -13,8 +13,8 @@ import './App.css';
 function App() {
   return (
   
-    <Container>
-      <Grid container>
+    <Container className={'top_60'}>
+      <Grid container spacing={6}>
 
         {/* //First Components */}
 

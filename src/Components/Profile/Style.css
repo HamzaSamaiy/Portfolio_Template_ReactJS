@@ -32,7 +32,7 @@
 .profile_image{
     margin-top:-18px;
     -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
-    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 91%, 0% 100%);
 }
 
 .profile_image img{
@@ -64,4 +64,11 @@
 .timelineItem_text >  a{
     color: #59baff;
     text-decoration: none;
+}
+
+.profile .btn_container{
+    width:100% !important;
+    display:flex !important;
+    justify-content: center !important;
+    margin-top: 20px;
 }

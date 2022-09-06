@@ -1,0 +1,39 @@
+.site_btn{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    border: 0 !important;
+    border-radius: 50px !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    padding: 1px 12px !important;
+    min-width: 100px !important;
+    outline: none !important;
+    line-height: 35px !important;
+    background: var(--main-color) !important;
+}
+
+.site_btn .icon_container{
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    height: 27px;
+    width: 27px;
+    float: right;
+    text-align: center;
+    line-height: 29px !important;
+}
+
+.site_btn .icon_container > .MuiSvgIcon-root{
+    font-size: 16px !important;
+}
+
+.site_btn .btn_text{
+    color: #000 !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    text-transform: none !important;
+    font-weight: bold;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}

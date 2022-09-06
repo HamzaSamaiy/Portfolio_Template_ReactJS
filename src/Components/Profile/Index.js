@@ -5,6 +5,8 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import ResumeData from '../../Utils/ResumeData';
 import Person from '@material-ui/icons/Person';
+import CustomButton from '../Button/Index';
+import GetApp from '@material-ui/icons/GetApp';
 import './Style.css';
 
 const CustomData =({title,text,link})=>(
@@ -61,8 +63,10 @@ const Profile =()=>{
                         <CustomData title={key} text={ResumeData.social[key].Text} link={ResumeData.social[key].Link} />
                     ))}
                 </CustomTimeLine>
-                <br />
-                <button>Press</button>
+                <div className="btn_container">
+                    <CustomButton text={'Download Cv'} icon={<GetApp />}/>
+                </div>
+                
             </div>
         </div>
     ) 
