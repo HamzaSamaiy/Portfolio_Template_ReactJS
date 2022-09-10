@@ -54,9 +54,7 @@ const Profile =()=>{
                 <CustomTimeLine icon={<Person />} >
                     <CustomData title={'Name'} text={ResumeData.name} />   
                     <CustomData title={'Title'} text={ResumeData.title} /> 
-                    <CustomData title={'Birthday'} text={ResumeData.birthday} />
                     <CustomData title={'Email'} text={ResumeData.email} />
-                    <CustomData title={'Address'} text={ResumeData.address} />
                     <CustomData title={'Phone'} text={ResumeData.phone} />
 
                     {Object.keys(ResumeData.social).map((key)=>(

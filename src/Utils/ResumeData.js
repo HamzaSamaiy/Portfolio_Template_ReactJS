@@ -1,9 +1,10 @@
 import React from 'react';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import  { Facebook,GitHub , Twitter} from '@material-ui/icons';
+
 export default {
     name:'Hamza Samaiy',
-    title:'Full Stack Developer',
+    title:'Full Stack JS Developer',
     birthday:'21st December 1996',
     email: 'hamzarawi96@gmail.com',
     address:'Tunisia, Sousse 4000',
@@ -17,7 +18,17 @@ export default {
         Github:{
             Link:'https://www.github.com/HamzaSamaiy',
             Text:'Hamza Samaiy',
-            Icon:<GitHubIcon />,
+            Icon:<GitHub />,
+        },
+        Facebook:{
+            Link:'https://www.facebook.com',
+            Text:'Hamza Samaiy',
+            Icon:<Facebook />,
+        },
+        Twitter:{
+            Link:'https://www.Twitter.com',
+            Text:'Hamza Samaiy',
+            Icon:<Twitter />,
         }
     }
 }

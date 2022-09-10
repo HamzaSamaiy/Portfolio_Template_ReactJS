@@ -26,14 +26,14 @@ function App() {
 
         {/* //Sec Components */}
 
-        <Grid item xs style={{backgroundColor:'beige'}}>
-          <Header />
+        <Grid item xs>
           <Router>
+            <Header />
             <Routes>
                <Route path ="/Portfolio" element={<Portfolio/>} />
                <Route path ="/" element={<Resume/>} />
             </Routes>
-           </Router>
+          </Router>
          <Footer />
         </Grid>
       </Grid>

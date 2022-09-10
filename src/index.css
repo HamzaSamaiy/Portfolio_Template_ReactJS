@@ -10,8 +10,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image:url('./assets/images/bg.png');
   background-color: #fafafa;
-
-  overflow-x: hidden;
+  outline: 0;
+  overflow: hidden;
   position: relative;
 }
 
