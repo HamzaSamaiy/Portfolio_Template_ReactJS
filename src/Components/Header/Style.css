@@ -1,23 +1,12 @@
 /* Styling header left */
 .header{
     padding: 0 22px 0 0  !important;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-
     background: #fff;
-    display: inline-block;
     border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    height: 70px;
-    width: 100%;
     margin-bottom: 30px;
-    line-height: 55px;
     box-shadow: 0px 2px 92px 0px rgb(0 0 0 / 7%);
-    -webkit-box-shadow: 0px 2px 92px 0px rgb(0 0 0 / 7%);
-    -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
 }
+
 .header .header_link{
     text-transform: uppercase;
     font-weight: 500px;

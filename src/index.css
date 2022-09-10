@@ -11,7 +11,7 @@ body {
   background-image:url('./assets/images/bg.png');
   background-color: #fafafa;
   outline: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
 }
 
