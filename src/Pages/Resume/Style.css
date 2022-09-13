@@ -1,0 +1,37 @@
+/* About me section */
+.section .aboutme_text{
+    font-size: 13px;
+    color: #4c4c4c;
+    line-height: 24px;
+    white-space: pre-line !important;
+}
+
+/* Timeline section */
+.section .timeline_dot_header{
+    padding: 14px !important;
+}
+
+.section .timeline_header{
+    padding-top: 12px !important;
+}
+
+.section .separator_padding{
+    padding-left:22px !important;
+}
+
+
+.resume_timeline .timeline_content .timeline_title{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.resume_timeline .timeline_content .timeline_date{
+    color: darkslategray !important;
+}
+
+
+.resume_timeline .timeline_content .timeline_description{
+    color:gray !important;
+    font-size: small !important;
+    margin-top: 6px !important;   
+}

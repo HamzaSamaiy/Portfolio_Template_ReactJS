@@ -29,10 +29,12 @@ function App() {
         <Grid item xs>
           <Router>
             <Header />
+            <div className='main-content container_shadaw'>
             <Routes>
                <Route path ="/Portfolio" element={<Portfolio/>} />
                <Route path ="/" element={<Resume/>} />
             </Routes>
+            </div>
           </Router>
          <Footer />
         </Grid>

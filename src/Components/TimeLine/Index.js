@@ -10,7 +10,7 @@ import './Style.css'
 import { Typography } from '@material-ui/core';
 const CustomTimeLine =({title, icon, children})=>{
     return(
-        <Timeline className={'timeline'}>
+        <Timeline className={'timeline'}> 
             {/* //Header Time Line */}
         <TimelineItem className={'timeline_firstItem'}>
           <TimelineSeparator>
