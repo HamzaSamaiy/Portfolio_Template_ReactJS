@@ -97,6 +97,7 @@ export default {
             title:'Fast Delivery',
             description:'I deliver your business as fast as possible.'
         }
-    ]
+    ],
+    
 
 }

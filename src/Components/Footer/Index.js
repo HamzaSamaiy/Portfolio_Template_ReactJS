@@ -5,16 +5,21 @@ import ResumeData from '../../Utils/ResumeData';
 const Footer =()=>{
     return(
         <div className='footer'>
+
+            {/* footer left */}
             <div className='footer_left'>
                 <Typography className='footer_name'>
                     {ResumeData.name}
                 </Typography>
             </div>
+
+            {/* footer right */}
             <div className='footer_right'>
                 <Typography className='footer_copyright'>
-                Designed and Developed by <a href='https://www.linkedin.com/in/hamza-samaiy/'>HamzaSamaiy</a>
+                Cloned by <a href='https://www.linkedin.com/in/hamza-samaiy/'>HamzaSamaiy</a>
                 </Typography>
             </div>
+            
         </div>
     )
 }
