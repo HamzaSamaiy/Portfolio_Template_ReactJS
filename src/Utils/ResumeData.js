@@ -1,6 +1,13 @@
 import React from 'react';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import  { Facebook,GitHub , Twitter} from '@material-ui/icons';
+import  { 
+    Facebook,
+    GitHub ,
+    Twitter,
+    CodeRounded ,
+    DescriptionTwoTone,
+    Brush,
+    AccessTimeTwoTone,} from '@material-ui/icons';
 
 export default {
     name:'Hamza Samaiy',
@@ -67,6 +74,29 @@ export default {
             date:'2000 - 2003',
             description:'Excited him now natural saw passage offices you minuter. At by asked being court hopes. Farther so friends am to detract.',
         },
+    ],
+
+    services:[
+        {
+            icon: <CodeRounded />,
+            title:'Web Development',
+            description:'I have been working on web design for 10 years.'
+        },
+        {
+            icon:<DescriptionTwoTone />,
+            title:'Branding Identity',
+            description:'We will make you a brand that is catchy and leaves a trace.'
+        },
+        {
+            icon:<Brush />,
+            title:'Illustrator',
+            description:'I have been working on illustration design for 6 years.'
+        },
+        {
+            icon:<AccessTimeTwoTone />,
+            title:'Fast Delivery',
+            description:'I deliver your business as fast as possible.'
+        }
     ]
 
 }
