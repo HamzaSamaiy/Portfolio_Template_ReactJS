@@ -7,6 +7,18 @@
 .section .contact_right{
     padding-left: 60px !important;
 }
+
+@media screen and (max-width:1279.5px){
+    .section .contact_right{
+        padding-left: 0px !important;
+    }
+}
+
+
+/* End container section */
+
+
+/*Contact  */
 .contact_item{
     font-size: 14px !important;
     color: #787878 !important;
@@ -24,8 +36,4 @@
 }
 
 
-@media screen and (max-width:1279.5px){
-    .section .contact_right{
-        padding-left: 0px !important;
-    }
-}
+/* End of contact */

@@ -98,6 +98,159 @@ export default {
             description:'I deliver your business as fast as possible.'
         }
     ],
+    projects:[
+        {
+            tag:'React',
+            title:'React Chat project ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+
+
+        {
+            tag:'React',
+            title:'React project 2 ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+
+
+
+
+
+        {
+            tag:'React',
+            title:'React project 3 ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+
+        {
+            tag:'React',
+            title:'React hotel project ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+
+
+        {
+            tag:'PHP',
+            title:'php project1 ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+
+
+        {
+            tag:'PHP',
+            title:'php project2 ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+        {
+            tag:'Java',
+            title:'Java project ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+
+
+        {
+            tag:'Javascript',
+            title:'Javascript1 project ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+
+        {
+            tag:'Javascript',
+            title:'Javascript2 project ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+
+
+        {
+            tag:'Javascript',
+            title:'Javascript3 project ',
+            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            description:'Description about the project..',
+            caption:'Short description',
+            links:[
+                {link:'https://www.github.com',icon:<GitHub />},
+                {link:'https://www.facebook.com',icon:<Facebook />},
+                {link:'https://www.twitter.com',icon:<Twitter />}
+            ]
+        },
+
+
+
+
+    ],
     
 
 }
+
