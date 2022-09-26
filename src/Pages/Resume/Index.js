@@ -160,11 +160,7 @@ const Resume =()=>{
               
             </Grid>
         
-        {/* Contact */}
-            <Grid container>
-                    
-            </Grid>
-
+   
         
         </>
     )

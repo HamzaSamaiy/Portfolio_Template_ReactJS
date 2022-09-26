@@ -13,6 +13,7 @@ import {
     Tabs, 
     Typography } from '@material-ui/core';
 import React, { useState } from 'react';
+import ImageGallery from '../../Components/ImageGallery/ImageGallery';
 import ResumeData from '../../Utils/ResumeData'
 import './Style.css'
 const Portfolio =()=>{
@@ -63,7 +64,7 @@ const Portfolio =()=>{
                                     <Grow in timeout={2000}>
                                     <Card className='costomCard' onClick={() => setProjectDialog(project)}>
                                         <CardActionArea>
-                                            <CardMedia className='costomCard_image' image={project.image} title={project.title}/>
+                                            <CardMedia className='costomCard_image' image={project.images} title={project.title}/>
                                             <CardContent>
                                                 <Typography variant={'body2'} className='costomCard_title'>{project.title}</Typography>
                                                 <Typography variant={'body2'} className='costomCard_caption'>{project.caption}</Typography>
@@ -87,11 +88,15 @@ const Portfolio =()=>{
                  open={projectDialog}
                  onClose={()=> setProjectDialog(false)}
                  className='projectDialog'
+                 maxWidth={'lg'}
                  fullWidth>
                 
                     <DialogTitle  onClose={()=> setProjectDialog(false)}>{projectDialog.title}</DialogTitle>
-                    <img src={projectDialog.image} alt='' className='projectDialog_image' />
+                    
                     <DialogContent>
+                        {projectDialog.images && (
+                            <ImageGallery images={projectDialog.images} />
+                        )}
                         <Typography className='projectDialog_description'>
                             {projectDialog.description}
                         </Typography>

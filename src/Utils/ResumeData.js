@@ -102,7 +102,11 @@ export default {
         {
             tag:'React',
             title:'React Chat project ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
@@ -117,7 +121,11 @@ export default {
         {
             tag:'React',
             title:'React project 2 ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
@@ -135,7 +143,11 @@ export default {
         {
             tag:'React',
             title:'React project 3 ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
@@ -149,7 +161,11 @@ export default {
         {
             tag:'React',
             title:'React hotel project ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
@@ -164,7 +180,11 @@ export default {
         {
             tag:'PHP',
             title:'php project1 ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
@@ -179,7 +199,11 @@ export default {
         {
             tag:'PHP',
             title:'php project2 ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
@@ -192,7 +216,11 @@ export default {
         {
             tag:'Java',
             title:'Java project ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
@@ -207,7 +235,11 @@ export default {
         {
             tag:'Javascript',
             title:'Javascript1 project ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
@@ -221,7 +253,11 @@ export default {
         {
             tag:'Javascript',
             title:'Javascript2 project ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
@@ -236,7 +272,11 @@ export default {
         {
             tag:'Javascript',
             title:'Javascript3 project ',
-            image:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+            images:[
+                'https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0.jpeg?yCXmhi7e2ARwUtzHHlvtcrgETnDgFwCK&size=1200:675',
+                'https://www.interviewbit.com/blog/wp-content/uploads/2021/12/React-Projects.png',
+                'https://res.cloudinary.com/practicaldev/image/fetch/s--NKzZ5feM--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://www.educative.io/v2api/editorpage/5024256839647232/image/4718983717584896',
+            ],
             description:'Description about the project..',
             caption:'Short description',
             links:[
